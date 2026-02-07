@@ -1,0 +1,54 @@
+#certificados {
+    padding: 50px 0; 
+    margin: 0 auto;
+  }
+  
+  .titulo-certificado {
+    text-align: center; 
+    margin-bottom: 30px; 
+  }
+  
+  .card-certificado {
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  
+  .img-certificado {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto;
+  }
+  
+  .slick-dots li button:before {
+    color: rgb(15, 124, 214); 
+  }
+
+  .slick-slide {
+    transition: opacity 0.5s ease;
+}
+
+.slick-slide.slick-current {
+    opacity: 1;
+}
+
+.slick-slide:not(.slick-current) {
+    opacity: 0.5;
+}
+
+  
+  @media (max-width: 695px) {
+    .img-certificado {
+      height: 250px; 
+      width: auto; 
+    }
+  }
+  
+  @media (max-width: 525px) {
+    .img-certificado {
+      height: 200px; 
+      width: auto; 
+    }
+  }
+  

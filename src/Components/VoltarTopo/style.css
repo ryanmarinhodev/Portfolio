@@ -1,0 +1,44 @@
+.voltar-topo {
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #6932f5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    animation: imgg 2s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+
+  
+@keyframes imgg {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+  .seta{
+    border: solid white;
+    border-width: 0 7px 7px 0;
+    padding: 6px;
+    display: inline-block;
+    margin: 0;
+    background-color: #6932f5;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }

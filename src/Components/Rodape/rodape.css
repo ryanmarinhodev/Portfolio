@@ -1,0 +1,9 @@
+ footer {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: solid 1px rgb(85, 84, 84);
+ }
