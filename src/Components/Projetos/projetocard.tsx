@@ -8,7 +8,7 @@ const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, hospedagemLink, g
         <h3 className="subtitulo-descricao">{titulo}</h3>
         <p className="paragrafo-descricao-projetos">{descricao}</p>
         <div className="secao-tecnologias">
-          {tecnologias.map((tecnologia) => (
+          {tecnologias.map((tecnologia: string) => (
             <p className="tecnologias" key={tecnologia}>
               {tecnologia}
             </p>
