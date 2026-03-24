@@ -1,7 +1,7 @@
 import './home.css';
 
-import fotoBanner from '../../img/ryan-photo.jpeg';
-import iconeLinkedin from '../../img/icone-linkedin2.png';
+import fotoBanner from '../../img/fotoryan.jpeg';
+import iconeLinkedin from '../../img/icone-linkedin2.png'; 
 import iconeGithub from '../../img/icone-github.png';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
           </p>
 
           <div className="secao-link">
-            <a className="link link-baixarCV" href="curriculoRyan.pdf" download>
+            <a className="link link-baixarCV" href="public/RyanMarinho-curriculo-26.pdf" download>
               Baixar CV
             </a>
             <a className="link link-meus-projetos" href="#projetos">
