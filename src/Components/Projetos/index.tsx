@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ProjetoCard from './projetocard';
 import './projeto.css';
 import home3 from '../../img/home3-site.png';
