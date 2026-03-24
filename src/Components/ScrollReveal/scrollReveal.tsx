@@ -27,6 +27,7 @@ const ScrollRevealComponent = () => {
     sr.reveal('.secao-card-projetos', { distance: '40px', delay: 420, origin: 'left' });
     sr.reveal('.secao-contato', { distance: '40px', delay: 300, origin: 'top' });
   }, []);
+  return null;
 };
 
 export default ScrollRevealComponent;
