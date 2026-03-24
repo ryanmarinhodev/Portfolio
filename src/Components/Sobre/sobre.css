@@ -12,7 +12,7 @@
 
 .sobre-descricao h4{
     font-size: 15px;
-    color: #007fff;
+    color: #494335;
     margin-bottom: 14px;
 }
 
@@ -20,9 +20,11 @@
     font-size: 29px;
     margin-bottom: 16px;
     max-width: 520px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
-.dev{color: #007fff}
+.dev{color: #494335}
 .secao-sobre p {
     font-size: 18px;
     width: 600px;

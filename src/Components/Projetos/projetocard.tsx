@@ -1,4 +1,4 @@
-import iconeGithub from '../../img/icone-github.png';
+import { Github } from 'lucide-react';
 
 const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, hospedagemLink, githubLink }: any) => {
   return (
@@ -18,8 +18,8 @@ const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, hospedagemLink, g
           <a className="link-hospedagem" href={hospedagemLink} target="_blank" rel="noopener noreferrer">
             Ver projeto
           </a>
-          <a href={githubLink} target="_blank" rel="noopener noreferrer">
-            <img className="icone-github" src={iconeGithub} alt="iconegithub" />
+          <a href={githubLink} target="_blank" rel="noopener noreferrer" className="icone-github">
+            <Github size={28} />
           </a>
         </nav>
       </div>

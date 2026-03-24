@@ -16,6 +16,8 @@
 .titulo-principal {
     margin: 10px 0;
     font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .descricao-home p {
@@ -93,8 +95,8 @@
 }
 
 .link-baixarCV{
-    background-color: #007fff;
-    border: solid 2px #007fff;
+    background-color: #494335;
+    border: solid 2px #494335;
 }
 
 .link-meus-projetos {
@@ -109,7 +111,7 @@
 
 
 .link-baixarCV:hover{
-    background-color: #002;
+    background-color: #2a261e;
 }
 
 
@@ -122,27 +124,43 @@
 .secao-redes {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-top: 15px;
+    gap: 16px;
 }
 
-.secao-minhas-redes img {
-    height: 35px;
-    width: 35px;
-    margin: 0 10px;
+.secao-minhas-redes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.link-social img:hover{
-    transform: translateY(-8px);
-    transition: all 0.8s ease-in-out;
+.link-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #494335;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link-social:hover {
+    color: #f0efec;
+    transform: translateY(-4px);
+}
+
+.link-social svg,
+.link-social svg * {
+    background: transparent;
+    color: inherit;
 }
 
 .span-desc {
     padding: 8px 30px;
-    background: rgb(45,78,145);
-    background: linear-gradient(135deg, rgba(45,78,145,1) 48%, rgba(81,149,255,1) 76%);
-    box-shadow: rgba(0, 102, 255, 0.4) 0px 4px 10px;
+    background: rgb(73,67,53);
+    background: linear-gradient(135deg, rgba(73,67,53,1) 48%, rgba(100,94,77,1) 76%);
+    box-shadow: rgba(73, 67, 53, 0.4) 0px 4px 10px;
     border-radius: 50px;
-    color: #E3F4FF;
+    color: #F5F0E8;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -154,8 +172,8 @@
 }
 
 .span-desc:hover {
-    background: linear-gradient(135deg, rgba(81,149,255,1) 48%, rgba(45,78,145,1) 76%);
-    box-shadow: rgba(0, 102, 255, 0.6) 0px 6px 12px;
+    background: linear-gradient(135deg, rgba(100,94,77,1) 48%, rgba(73,67,53,1) 76%);
+    box-shadow: rgba(73, 67, 53, 0.6) 0px 6px 12px;
     transform: scale(1.05);
 }
 

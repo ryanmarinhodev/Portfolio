@@ -1,8 +1,7 @@
 import './home.css';
 
+import { LinkedinIcon, Github } from 'lucide-react';
 import fotoBanner from '../../img/fotoryan.jpeg';
-import iconeLinkedin from '../../img/icone-linkedin2.png'; 
-import iconeGithub from '../../img/icone-github.png';
 
 export default function Home() {
   return (
@@ -29,11 +28,11 @@ export default function Home() {
           <div id="sobre" className="secao-redes">
             <p>Minhas redes: </p>
             <div className="secao-minhas-redes">
-              <a href="https://www.linkedin.com/in/ryan-marinho-861120211/" className="link-social" target="blank">
-                <img src={iconeLinkedin} alt="linkedin" />
+              <a href="https://www.linkedin.com/in/ryan-marinho-861120211/" className="link-social" target="_blank" rel="noopener noreferrer">
+                <LinkedinIcon size={28} />
               </a>
-              <a href="https://github.com/ryanmarinhodev" className="link-social" target="blank">
-                <img src={iconeGithub} alt="github" />
+              <a href="https://github.com/ryanmarinhodev" className="link-social" target="_blank" rel="noopener noreferrer">
+                <Github size={28} />
               </a>
             </div>
           </div>

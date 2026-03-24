@@ -6,7 +6,7 @@
     width: 55px;
     height: 55px;
     border-radius: 20px;
-    background-color: #6932f5;
+    background-color: #494335;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
     padding: 6px;
     display: inline-block;
     margin: 0;
-    background-color: #6932f5;
+    background-color: #494335;
   }
   
   .up {
