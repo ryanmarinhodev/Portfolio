@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import ProjetoCard from './projetocard';
 import './projeto.css';
 import home3 from '../../img/home3-site.png';
+import home3_2026 from '../../img/home3-2026.png';
 import ponto3 from '../../img/ponto3-site.png';
 import ecommerce from '../../img/e-commerce.png';
 import geizarabelo from '../../img/geiza-rabelo.png';
 //import starWarsCharacters from "../../img/projeto-star-wars-characters.jpg";
 import fullstack from '../../img/PROJETOfullstack.png';
-import saas from '../../img/whaticket.png';
 
 export default function Projeto() {
   const [verMais, setVerMais] = useState(false);
@@ -29,6 +29,14 @@ export default function Projeto() {
       <h2 className="subtitulo-projeto">Meus projetos</h2>
       <div className="secao-card-projetos">
         <ProjetoCard
+          imagem={home3_2026}
+          titulo="Freelancer Home3 Tecnologia - 2026"
+          descricao="Desenvolvi um portal de clientes para a Home3 Tecnologia, com acesso organizado a projetos e documentos, controle administrativo e integração com a API do Google Drive, priorizando performance e segurança"
+          tecnologias={['TYPESCRIPT', 'REACT', 'NODE.JS', 'POSTGRESQL', 'PRISMA ORM', 'API GOOGLE DRIVE']}
+          hospedagemLink="https://home3tecnologiaportal.vercel.app/"
+          githubLink="https://github.com/ryanmarinhodev/Home3tecnologia-portal"
+        />
+        <ProjetoCard
           imagem={ponto3}
           titulo="Freelancer Ponto3 Arquit. - NextJs"
           descricao="Desenvolvi projeto elegante para empresa de arquitetura com galeria minimalista e rotas dinâmicas em Next.js, focado em performance, usabilidade e experiência fluida com React e TypeScript."
@@ -38,8 +46,8 @@ export default function Projeto() {
         />
         <ProjetoCard
           imagem={home3}
-          titulo="Freelancer Home3 Tecnologia"
-          descricao="Criei o site da Home3 Tecnologia com design moderno e responsivo, oferecendo uma experiência fluida e intuitiva, que valoriza a navegação dinâmica e destaca os serviços da empresa."
+          titulo="Freelancer Home3 Tecnologia - 2024"
+          descricao="Desenvolvi o site da Home3 Tecnologia com design moderno e responsivo, oferecendo uma experiência fluida e intuitiva, que valoriza a navegação dinâmica e destaca os serviços da empresa."
           tecnologias={['REACT', 'JAVASCRIPT', 'STYLED']}
           hospedagemLink="https://home3tecnologia.com/"
           githubLink="https://github.com/ryanmarinhodev/Home3-react"
