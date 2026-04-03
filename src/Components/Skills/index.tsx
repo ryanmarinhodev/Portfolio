@@ -15,27 +15,28 @@ export default function Skills() {
           imagem={logoFront}
           descricao="Front-End"
           tecnologias={[
+            'HTML semântico',
+            'CSS',
+            'JavaScript',
             'React',
-            'NextJs',
-            'Javascript',
+            'Next.js',
             'TypeScript',
+            'Tailwind CSS',
             'Styled-Components',
             'Material UI',
-            'HTML',
-            'CSS',
           ]}
         />
 
         <SkillsCard
           imagem={logoBack}
           descricao="Back-End"
-          tecnologias={['Node.js', 'Express', 'MongoDB', 'Mysql', 'SQL', 'PostgreeSql']}
+          tecnologias={['Node.js', 'Express', 'Python (Flask)', 'SQL', 'PostgreSQL', 'MongoDB', 'Supabase', 'Prisma ORM']}
         />
 
         <SkillsCard
           imagem={logoFerramentas}
           descricao="Ferramentas/Plataformas"
-          tecnologias={['Git', 'GitHub', 'Postman', 'Trello']}
+          tecnologias={['Docker', 'Git', 'GitHub', 'Postman', 'Vercel', 'Trello', 'CI/CD (Vercel + Git)', 'Kanban']}
         />
       </div>
     </section>

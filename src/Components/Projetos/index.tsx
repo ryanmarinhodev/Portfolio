@@ -31,7 +31,7 @@ export default function Projeto() {
         <ProjetoCard
           imagem={home3_2026}
           titulo="Freelancer Home3 Tecnologia - 2026"
-          descricao="Desenvolvi um portal de clientes para a Home3 Tecnologia, com acesso organizado a projetos e documentos, controle administrativo e integração com a API do Google Drive, priorizando performance e segurança"
+          descricao="Portal de clientes com área administrativa, organização de projetos e documentos e integração com a API do Google Drive. A solução reduziu retrabalho operacional e centralizou o acesso às informações com foco em segurança e performance."
           tecnologias={['TYPESCRIPT', 'REACT', 'NODE.JS', 'POSTGRESQL', 'PRISMA ORM', 'API GOOGLE DRIVE']}
           hospedagemLink="https://home3tecnologiaportal.vercel.app/"
           githubLink="https://github.com/ryanmarinhodev/Home3tecnologia-portal"
@@ -39,7 +39,7 @@ export default function Projeto() {
         <ProjetoCard
           imagem={ponto3}
           titulo="Freelancer Ponto3 Arquit. - NextJs"
-          descricao="Desenvolvi projeto elegante para empresa de arquitetura com galeria minimalista e rotas dinâmicas em Next.js, focado em performance, usabilidade e experiência fluida com React e TypeScript."
+          descricao="Site institucional para escritório de arquitetura com galeria visual otimizada e rotas dinâmicas em Next.js. Entrega orientada à conversão, navegação fluida e carregamento rápido para valorizar o portfólio da marca."
           tecnologias={['NEXTJS', 'REACT', 'TYPESCRIPT']}
           hospedagemLink="https://ponto3arq-nextjs.vercel.app/"
           githubLink="https://github.com/ryanmarinhodev/ponto3arq-nextjs"
@@ -47,7 +47,7 @@ export default function Projeto() {
         <ProjetoCard
           imagem={home3}
           titulo="Freelancer Home3 Tecnologia - 2024"
-          descricao="Desenvolvi o site da Home3 Tecnologia com design moderno e responsivo, oferecendo uma experiência fluida e intuitiva, que valoriza a navegação dinâmica e destaca os serviços da empresa."
+          descricao="Website responsivo desenvolvido para fortalecer a presença digital da Home3 Tecnologia. Estruturei uma experiência objetiva para apresentar serviços com clareza, melhorar a navegação e apoiar a geração de novos contatos comerciais."
           tecnologias={['REACT', 'JAVASCRIPT', 'STYLED']}
           hospedagemLink="https://home3tecnologia.com/"
           githubLink="https://github.com/ryanmarinhodev/Home3-react"
@@ -61,16 +61,16 @@ export default function Projeto() {
           <div className="secao-card-projetos">
             <ProjetoCard
               imagem={fullstack}
-              titulo="Projeto Fullstack"
-              descricao="Projeto full-stack com Node.js, React, TypeScript e MySQL. Possui autenticação de usuários, integração com API do YouTube e interface responsiva focada em navegação fluida e intuitiva."
-              tecnologias={['Javascript', 'HTML', 'CSS']}
+              titulo="Projeto de Estudos - Full Stack"
+              descricao="Projeto de estudos full stack voltado à evolução prática em front-end e back-end. Desenvolvi a camada de interface com React e implementei uma API com Node.js integrada a banco relacional (SQL/MariaDB), consolidando fundamentos de arquitetura, integração e fluxo ponta a ponta."
+              tecnologias={['JAVASCRIPT', 'REACT', 'HTML', 'CSS', 'NODE.JS', 'SQL', 'MARIADB']}
               hospedagemLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
               githubLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
             />
             <ProjetoCard
               imagem={ecommerce}
               titulo="e-Commerce"
-              descricao="Desenvolvi e-commerce com integração à API do Mercado Livre, permitindo busca de produtos, adição e remoção no carrinho, além de cálculo de preços em uma interface simples e eficiente."
+              descricao="E-commerce integrado à API do Mercado Livre com busca de produtos, gestão de carrinho e cálculo de valores em tempo real. A proposta foi validar uma jornada de compra simples, rápida e funcional."
               tecnologias={['REACT.JS', 'JAVASCRIPT', 'HTML', 'CSS']}
               hospedagemLink="https://github.com/ryanmarinhodev/E-commerce"
               githubLink="https://github.com/ryanmarinhodev/E-commerce"
@@ -78,7 +78,7 @@ export default function Projeto() {
             <ProjetoCard
               imagem={geizarabelo}
               titulo="Freelancer Instituto Rabelo"
-              descricao="Criei o site do Instituto Rabelo para destacar a clínica e a Dra. Geiza Rabelo, com animações em JavaScript, carrossel de imagens e navegação leve e envolvente."
+              descricao="Site institucional desenvolvido para fortalecer a comunicação da clínica e destacar serviços médicos. Usei animações em JavaScript e carrossel de imagens para tornar a experiência mais envolvente sem comprometer a usabilidade."
               tecnologias={['JAVASCRIPT', 'HTML', 'CSS']}
               hospedagemLink="https://institutorabelo.site/"
               githubLink="https://github.com/ryanmarinhodev/instituto-rabelo"

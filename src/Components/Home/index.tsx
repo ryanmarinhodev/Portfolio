@@ -10,14 +10,15 @@ export default function Home() {
         <div className="descricao-home">
           <span className="span-desc">Software Developer</span>
           <h1 className="titulo-principal">Ryan Marinho</h1>
-          <span className="span">| Front-End Developer</span>
+          <span className="span">| Full Stack Developer</span>
           <p>
-            Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus projetos, competências e experiência
-            profissional. Sinta-se à vontade para explorar e descobrir como posso colaborar em suas demandas.
+            Desenvolvo aplicações web com foco em performance, experiência do usuário e impacto real no negócio.
+            Neste portfólio, apresento projetos Front-End e Full Stack que evidenciam minha capacidade de transformar
+            requisitos em soluções digitais claras, escaláveis e prontas para produção.
           </p>
 
           <div className="secao-link">
-            <a className="link link-baixarCV" href="public/RyanMarinho-curriculo-26.pdf" download>
+            <a className="link link-baixarCV" href="public/Curriculo-2026.pdf.pdf" download>
               Baixar CV
             </a>
             <a className="link link-meus-projetos" href="#projetos">
