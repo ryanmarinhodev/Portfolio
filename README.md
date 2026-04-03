@@ -1,73 +1,82 @@
-# React + TypeScript + Vite
+# Portfolio - Ryan Marinho
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview do Portfolio](public/Portfolio.png)
 
-Currently, two official plugins are available:
+Portfolio profissional com foco em projetos Front-End e Full Stack, destacando experiencia pratica em entrega de produto ponta a ponta, integracao com APIs e desenvolvimento orientado a qualidade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visao Geral
 
-## React Compiler
+Este projeto apresenta:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Minha apresentacao profissional e stack principal.
+- Projetos freelancer e projetos de estudo com descricao tecnica objetiva.
+- Certificados e links de contato para recrutadores e parceiros.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Front-End
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+- React Router DOM
+- ScrollReveal
+- React Slick
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Ferramentas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Vite
+- ESLint
+- Git e GitHub
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Estrutura do Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+src/Components contem as secoes principais do portfolio:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Home
+- Sobre
+- Skills
+- Projetos
+- Certificados
+- Rodape
+
+## Como Executar Localmente
+
+1. Clone o repositorio.
+2. Instale as dependencias.
+3. Rode o servidor de desenvolvimento.
+
+Comandos:
+
+- npm install
+- npm run dev
+
+Para build de producao:
+
+- npm run build
+- npm run preview
+
+## Scripts Disponiveis
+
+- npm run dev: inicia ambiente de desenvolvimento.
+- npm run build: gera build de producao.
+- npm run preview: sobe preview local do build.
+- npm run lint: executa analise de padrao de codigo.
+
+## Diferenciais do Portfolio
+
+- Comunicacao clara entre contexto de negocio e implementacao tecnica.
+- Projetos com foco em performance, usabilidade e manutencao.
+- Apresentacao objetiva para avaliacao tecnica e recrutamento.
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/in/ryan-marinho-861120211/
+- GitHub: https://github.com/ryanmarinhodev
+- E-mail: ryanmarinhodev@gmail.com
+
+## Status
+
+Em evolucao continua com novos projetos, melhorias de conteudo e refinamento de experiencia.
