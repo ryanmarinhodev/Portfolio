@@ -7,7 +7,6 @@ type SkillsCardProps = {
 };
 
 const SkillsCard = ({ imagem, descricao, tecnologias }: SkillsCardProps) => {
-  console.log(tecnologias);
   return (
     <article className="card-skills">
       <div className="descricao-skills">
