@@ -1,5 +1,5 @@
 #certificados {
-    padding: 50px 0; 
+  padding: 60px 0; 
     margin: 0 auto;
   }
   
@@ -9,14 +9,18 @@
   }
   
   .card-certificado {
-    max-width: 600px; 
+    max-width: 760px; 
     margin: 0 auto; 
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #171717;
   }
   
   .img-certificado {
     width: 100%; 
     height: auto; 
-    border-radius: 8px; 
+    border-radius: 12px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 0 auto;
   }

@@ -4,6 +4,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    border-top: solid 1px rgb(85, 84, 84);
+    padding: 24px 20px;
+    border-top: solid 1px rgba(255, 255, 255, 0.12);
+    color: #c7c7c7;
  }

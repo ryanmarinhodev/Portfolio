@@ -7,7 +7,7 @@ import ponto3 from '../../img/ponto3-site.png';
 import ecommerce from '../../img/e-commerce.png';
 import geizarabelo from '../../img/geiza-rabelo.png';
 //import starWarsCharacters from "../../img/projeto-star-wars-characters.jpg";
-import fullstack from '../../img/PROJETOfullstack.png';
+import fullstack from '../../img/youtube-print.png';
 
 export default function Projeto() {
   const [verMais, setVerMais] = useState(false);

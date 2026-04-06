@@ -20,16 +20,20 @@
     letter-spacing: -1px;
 }
 
-.descricao-home p {
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 30px;
+.titulo-principal span {
+    color: #494335;
 }
 
 .span {
     font-size: 30px;
     margin-bottom: 30px;
 
+}
+
+.descricao-home p {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
 }
 
 .banner-home {
@@ -250,9 +254,9 @@
         font-size: 44px;
        }
 
-       .span {
-         font-size: 20px;
-       }
+             .span {
+                 font-size: 20px;
+             }
     }
 
     @media screen and (max-width: 470px) {
@@ -275,9 +279,9 @@
             font-size: 38px;
            }
     
-           .span {
-             font-size: 16px;
-           }
+                     .span {
+                         font-size: 16px;
+                     }
 
            .link {
             padding: 10px 28px;

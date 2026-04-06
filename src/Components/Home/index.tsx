@@ -9,7 +9,9 @@ export default function Home() {
       <div id="home" className="secao-home">
         <div className="descricao-home">
           <span className="span-desc">Software Developer</span>
-          <h1 className="titulo-principal">Ryan Marinho</h1>
+          <h1 className="titulo-principal">
+            Ryan <span>Marinho</span>
+          </h1>
           <span className="span">| Full Stack Developer</span>
           <p>
             Desenvolvo aplicações web com foco em performance, experiência do usuário e impacto real no negócio.
