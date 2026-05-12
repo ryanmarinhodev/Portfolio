@@ -1,7 +1,7 @@
 import './home.css';
 
 import { LinkedinIcon, Github } from 'lucide-react';
-import fotoBanner from '../../img/fotoryan.jpeg';
+import RyanFoto from '../../img/ryanfoto.jpeg';
 
 export default function Home() {
   return (
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className="banner-home">
-          <img src={fotoBanner} alt="imagem" />
+          <img src={RyanFoto} alt="imagem" />
         </div>
       </div>
     </main>
