@@ -5,6 +5,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import CertificadoCards from './certificadoCards';
 import './certificado.css';
 
+
+import diplomaADS from '../../img/diploma_primeira_pagina_titulo_visivel_dados_embacados.png';
 import certificadoPP from '../../img/certificado-ryan.png';
 import certificadoJs from '../../img/certificado-js.png';
 
@@ -23,6 +25,7 @@ export default function Certificados() {
       <h2 className="titulo-certificado">Certificados</h2>
       <div className="card-certificado">
         <Slider {...settings}>
+          <CertificadoCards img={diplomaADS} />
           <CertificadoCards img={certificadoPP} />
           <CertificadoCards img={certificadoJs} />
         </Slider>
