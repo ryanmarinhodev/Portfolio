@@ -20,7 +20,7 @@ export default function Home() {
           </p>
 
           <div className="secao-link">
-            <a className="link link-baixarCV" href="public/curriculo-developer-ryanmarinho.pdf" download>
+            <a className="link link-baixarCV" href="public/Curriculo_Ryan_Marinho_Desenvolvedor_Fullstack.pdf" download>
               Baixar CV
             </a>
             <a className="link link-meus-projetos" href="#projetos">
