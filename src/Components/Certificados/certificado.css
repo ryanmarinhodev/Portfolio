@@ -24,10 +24,19 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 0 auto;
   }
-  
+
   .slick-dots li button:before {
-    color: #494335; 
-  }
+  color: #494335;
+  opacity: 0.55;
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #F5F0E8;
+  opacity: 1;
+  font-size: 12px;
+  text-shadow: 0 0 8px rgba(245, 240, 232, 0.45);
+}
 
   .slick-slide {
     transition: opacity 0.5s ease;
