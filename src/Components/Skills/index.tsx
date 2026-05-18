@@ -19,6 +19,9 @@ export default function Skills() {
             'CSS',
             'JavaScript',
             'React',
+            'TanStack Query',
+            'React Hook Form',
+            'Zod',
             'Next.js',
             'TypeScript',
             'Tailwind CSS',
@@ -30,7 +33,17 @@ export default function Skills() {
         <SkillsCard
           imagem={logoBack}
           descricao="Back-End"
-          tecnologias={['Node.js', 'Express', 'Python (Flask)', 'SQL', 'PostgreSQL', 'MongoDB', 'Supabase', 'Prisma ORM']}
+          tecnologias={[
+            'Node.js',
+            'Express',
+            'NestJs',
+            'Python (Flask)', 
+            'SQL', 
+            'PostgreSQL',
+            'MongoDB',
+            'Supabase',
+            'Prisma ORM'
+            ]}
         />
 
         <SkillsCard
