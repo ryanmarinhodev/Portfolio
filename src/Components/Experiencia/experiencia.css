@@ -1,0 +1,132 @@
+.secao-experiencia {
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+
+.secao-experiencia * {
+    background: transparent;
+}
+
+.experiencia-cabecalho {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.experiencia-cabecalho h4 {
+    color: #494335;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.experiencia-cabecalho h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.experiencia-card {
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 28px;
+    padding: 28px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.experiencia-logo {
+    width: 112px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiencia-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.experiencia-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.experiencia-topo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.experiencia-periodo {
+    display: block;
+    margin-bottom: 7px;
+    color: #494335;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.experiencia-topo h3 {
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.experiencia-cargo {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.68);
+    font-weight: 500;
+}
+
+.experiencia-resumo,
+.experiencia-detalhes {
+    max-width: 820px;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.experiencia-resumo {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.experiencia-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.experiencia-tech {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    padding: 7px 12px;
+    color: rgba(255, 255, 255, 0.82);
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 700px) {
+    .experiencia-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .experiencia-logo {
+        width: 112px;
+        height: 64px;
+    }
+
+    .experiencia-topo h3 {
+        font-size: 22px;
+    }
+
+    .experiencia-resumo,
+    .experiencia-detalhes {
+        font-size: 15px;
+    }
+}

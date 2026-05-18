@@ -28,7 +28,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div id="sobre" className="secao-redes">
+          <div className="secao-redes">
             <p>Minhas redes: </p>
             <div className="secao-minhas-redes">
               <a href="https://www.linkedin.com/in/ryan-marinho-861120211/" className="link-social" target="_blank" rel="noopener noreferrer">

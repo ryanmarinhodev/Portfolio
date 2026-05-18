@@ -7,7 +7,7 @@ import logoFerramentas from '../../img/logo-ferramentas.png';
 
 export default function Skills() {
   return (
-    <section className="limitar-secao secao-skills">
+    <section id="skills" className="limitar-secao secao-skills">
       <h4>Tecnologias</h4>
       <h2>Minhas Skills</h2>
       <div className="secao-card-skills">

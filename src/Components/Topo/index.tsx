@@ -5,7 +5,12 @@ import './topo.css';
 export default function Topo() {
   const [ativar, setAtivar] = useState('nav-list');
   const navList = () => {
-    ativar === 'nav-list' ? setAtivar('nav-list nav-active') : setAtivar('nav-list');
+    if (ativar === 'nav-list') {
+      setAtivar('nav-list nav-active');
+      return;
+    }
+
+    setAtivar('nav-list');
   };
   return (
     <header className="header">
@@ -30,6 +35,9 @@ export default function Topo() {
             </a>
             <a href="#sobre" className="link-topo">
               Sobre
+            </a>
+            <a href="#experiencia" className="link-topo">
+              Experiência
             </a>
             <a href="#skills" className="link-topo">
               Skills

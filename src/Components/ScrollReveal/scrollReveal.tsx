@@ -20,6 +20,9 @@ const ScrollRevealComponent = () => {
     sr.reveal('.sobre-descricao h2', { distance: '40px', delay: 290, origin: 'right' });
     sr.reveal('.sobre-descricao p', { distance: '40px', delay: 300, origin: 'left' });
 
+    sr.reveal('.experiencia-cabecalho', { distance: '40px', delay: 280, origin: 'top' });
+    sr.reveal('.experiencia-card', { distance: '40px', delay: 320, origin: 'bottom' });
+
     sr.reveal('.secao-skills h4', { distance: '40px', delay: 290, origin: 'top' });
     sr.reveal('.secao-skills h2', { delay: 290, origin: 'right' });
     sr.reveal('.card-skills', { delay: 320, origin: 'left' });

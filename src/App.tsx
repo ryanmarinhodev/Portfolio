@@ -7,6 +7,7 @@ import Skills from './Components/Skills';
 import Rodape from './Components/Rodape';
 import Projeto from './Components/Projetos';
 import Certificados from './Components/Certificados';
+import Experiencia from './Components/Experiencia';
 import ScrollRevealComponent from './Components/ScrollReveal/scrollReveal';
 import { ScrollToTopButton } from './Components/VoltarTopo';
 
@@ -17,6 +18,7 @@ function App() {
       <ScrollRevealComponent />
       <Home />
       <Sobre />
+      <Experiencia />
       <Skills />
       <Projeto />
       <Certificados />
