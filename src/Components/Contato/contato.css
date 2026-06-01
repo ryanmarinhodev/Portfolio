@@ -1,110 +1,259 @@
-.secao-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
-
-.formulario input {
-    width: 700px;
-    padding: 10px 12px;
-    height: 50px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    border:  2px solid #494335;
-    background-color: #f2f2f2;
-    box-shadow: 1px 1px 10px #494335;
-    color: black;
-}
-.formulario textarea {
-    width: 700px;
-    padding: 10px 12px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    border: 2px solid #494335;
-    background-color: #f2f2f2;
-    color: black;
-}
-.formulario button {
-    width: 700px;
-    height: 50px;
-    background-color: #494335;
-    font-weight: 500;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .secao-contato {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+    margin: 80px auto 90px;
+    padding: 0 24px;
+}
+
+.contato-cabecalho {
+    max-width: 760px;
+    margin: 0 auto 34px;
+    text-align: center;
 }
 
 .subtitulo-contato {
- color: #494335;
- margin-bottom: 20px;
+    color: #494335;
+    margin-bottom: 14px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .titulo-contato {
-margin-bottom: 30px;
+    margin-bottom: 18px;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 0;
 }
 
-@media(max-width: 730px) {
-    .formulario input {
-        width: 500px;
-       
-    }
-
-    .formulario textarea {
-        width: 500px;
-       
-    }
-
-    .formulario button {
-        width: 500px;
-        
-    }
-
+.contato-cabecalho p {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 17px;
+    line-height: 1.7;
 }
 
-@media(max-width: 530px) {
-    .formulario input {
-        width: 400px;
-        height: 40px;
+.contato-conteudo {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+.contato-email,
+.contato-canal {
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.98), rgba(20, 20, 20, 0.98));
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.24);
+}
+
+.contato-email {
+    min-height: 360px;
+    border-radius: 22px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato-icone,
+.contato-canal-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(73, 67, 53, 0.26);
+    color: #f0efec;
+}
+
+.contato-icone {
+    width: 54px;
+    height: 54px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.contato-email span {
+    background: transparent;
+    color: #a8a095;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.contato-email h3 {
+    background: transparent;
+    margin: 10px 0 14px;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.contato-email p {
+    background: transparent;
+    max-width: 560px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.contato-botao {
+    width: fit-content;
+    margin-top: 26px;
+    padding: 13px 22px;
+    border-radius: 999px;
+    background-color: #494335;
+    border: 2px solid #494335;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contato-botao:hover {
+    background-color: #2a261e;
+    transform: translateY(-4px);
+}
+
+.contato-email-link {
+    background: transparent;
+    width: fit-content;
+    margin-top: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contato-email-link:hover {
+    color: #ffffff;
+}
+
+.contato-canais {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contato-canal {
+    min-height: 108px;
+    border-radius: 18px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 48px 1fr 24px;
+    gap: 16px;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contato-canal:hover {
+    border-color: rgba(73, 67, 53, 0.42);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
+    transform: translateY(-4px);
+}
+
+.contato-canal-icone {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+}
+
+.contato-canal-texto,
+.contato-canal-texto strong,
+.contato-canal-texto small {
+    background: transparent;
+}
+
+.contato-canal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contato-canal-texto strong {
+    font-size: 17px;
+}
+
+.contato-canal-texto small {
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contato-canal-seta {
+    color: rgba(255, 255, 255, 0.72);
+    background: transparent;
+}
+
+.contato-icone svg,
+.contato-icone svg *,
+.contato-botao svg,
+.contato-botao svg *,
+.contato-canal-icone svg,
+.contato-canal-icone svg *,
+.contato-canal-seta,
+.contato-canal-seta * {
+    background: transparent;
+    color: inherit;
+}
+
+@media (max-width: 900px) {
+    .secao-contato {
+        margin-top: 60px;
     }
 
-    .formulario textarea {
-        width: 400px;
-       
+    .titulo-contato {
+        font-size: 36px;
     }
 
-    .formulario button {
-        width: 400px;
-        font-size: 15px;
-        height: 40px;
+    .contato-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-email {
+        min-height: auto;
     }
 }
 
-@media(max-width: 410px) {
-    .formulario input {
-        width: 350px;
+@media (max-width: 560px) {
+    .secao-contato {
+        padding: 0 18px;
     }
 
-    .formulario textarea {
-        width: 350px;
+    .contato-cabecalho {
+        text-align: left;
     }
 
-    .formulario button {
-        width: 350px;
+    .titulo-contato {
+        font-size: 30px;
+    }
+
+    .contato-email {
+        padding: 26px 22px;
+        border-radius: 18px;
+    }
+
+    .contato-email h3 {
+        font-size: 26px;
+    }
+
+    .contato-botao,
+    .contato-email-link {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contato-canal {
+        grid-template-columns: 44px 1fr;
+        min-height: auto;
+    }
+
+    .contato-canal-icone {
+        width: 44px;
+        height: 44px;
+    }
+
+    .contato-canal-seta {
+        display: none;
     }
 }

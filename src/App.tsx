@@ -10,6 +10,7 @@ import Certificados from './Components/Certificados';
 import Experiencia from './Components/Experiencia';
 import ScrollRevealComponent from './Components/ScrollReveal/scrollReveal';
 import { ScrollToTopButton } from './Components/VoltarTopo';
+import Contato from './Components/Contato';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Skills />
       <Projeto />
       <Certificados />
+      <Contato />
       <ScrollToTopButton />
       <Rodape />
     </div>
