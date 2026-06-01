@@ -41,7 +41,7 @@ export default function Projeto() {
           titulo="Freelancer Ponto3 Arquit. - NextJs"
           descricao="Site institucional para escritório de arquitetura com galeria visual otimizada e rotas dinâmicas em Next.js. Entrega orientada à conversão, navegação fluida e carregamento rápido para valorizar o portfólio da marca."
           tecnologias={['NEXTJS', 'REACT', 'TYPESCRIPT']}
-          hospedagemLink="https://ponto3arq-nextjs.vercel.app/"
+          hospedagemLink="https://www.ponto3arquitetura.com.br/"
           githubLink="https://github.com/ryanmarinhodev/ponto3arq-nextjs"
         />
         <ProjetoCard
