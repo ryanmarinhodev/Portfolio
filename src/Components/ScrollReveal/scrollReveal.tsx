@@ -28,7 +28,8 @@ const ScrollRevealComponent = () => {
     sr.reveal('.card-skills', { delay: 320, origin: 'left' });
 
     sr.reveal('.secao-card-projetos', { distance: '40px', delay: 420, origin: 'left' });
-    sr.reveal('.secao-contato', { distance: '40px', delay: 300, origin: 'top' });
+    sr.reveal('.contato-cabecalho', { distance: '40px', delay: 260, origin: 'top', reset: false });
+    sr.reveal('.contato-conteudo', { distance: '40px', delay: 300, origin: 'bottom', reset: false });
   }, []);
   return null;
 };
